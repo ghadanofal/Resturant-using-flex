@@ -1,0 +1,369 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,400;1,300;1,400&display=swap');
+/* public css */
+*{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+/* header css */
+.header{
+    background-image: url("../img/logo103.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+.navbar{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around; 
+    position:fixed;
+    width: 100%;
+    padding: 10px;
+
+}
+.logo{
+    width: 40%;
+}
+.nav{
+    width: 60%;
+}
+.logo img{
+    width: 30%;
+}
+.nav ul{
+    display :flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100%;
+    padding-top: 10px;
+}
+.nav ul li{
+    padding: 24px;
+}
+.nav ul li a{
+    font-size: 21px;
+    text-transform: capitalize;
+}
+.nav ul li a:hover{
+    color: rgb(235, 162, 28);
+}
+
+.header-content{
+    /* background-color: teal; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+    text-align: center;
+    line-height: 1.6;
+}
+h1{
+    color: #fff;
+    font-size: 72px;
+    font-family: "Alegreya";
+    text-transform: capitalize;
+    font-weight: 400;   
+}
+.header-content .content p{
+    color: #fff;
+    font-size: 40px;
+    font-family: "Dancing Script";
+    font-weight: 400;
+    padding-bottom: 19px;
+    
+}
+.learn-more , .visit, .view{
+padding-inline: 30px;
+padding-block: 15px;
+border: none;
+background-color: #c1ab84;
+border-radius: 7px;
+margin-right: 10px;
+color: #fff;
+font-family: "Alegreya Sans";
+font-size: 18px;
+font-weight: 700;   
+}
+.visit{
+    background-color: rgba(255,255,255,0.9); 
+    color: black;
+}
+.learn-more:hover{
+    background-color: rgba(255,255,255,0.9); 
+    color: black;
+}
+.visit:hover{
+    background-color: rgba(255,255,255,0.7);
+}
+
+/* about css */
+.reviews{
+    background-color: #f8f8f8;
+}
+.container{
+    width:86%;
+    margin: auto;
+    display: flex;
+    flex-wrap: nowrap; 
+    align-items: center;
+    justify-content: center;
+    padding-block: 40px;
+
+}
+.left-section{
+    width: 50%;
+    margin-right: 26px;
+
+}
+.right-section{
+    width: 50%;
+    margin: auto;
+    line-height: 1.6;
+    margin-block: 50px;
+}
+h2{
+    font-size: 36px;
+    font-family:"Alegreya";
+    color: #253048;
+    font-weight: 400;
+    padding-top:19px;
+}
+h3{
+    font-size: 28px;
+    color: #c1ab84;
+    font-family: 'Dancing Script';
+    padding-block: 16px;
+}
+.right-section p , .left-section p{
+    font-size: 18px;
+    font-family: "Alegreya";
+    color: #686868;
+    padding-block: 13px;
+    line-height: 1.7;
+    
+}
+.right-section ul li{
+    display: flex;
+    flex-wrap: nowrap;
+    padding-block: 7px;
+    align-items: center;
+
+}
+.right-section ul li p{
+    padding-left: 9px;
+}
+.right-section ul li i{
+    width:52px;
+    height: 52px;
+    border-radius: 100%;
+    line-height: 52px;
+    text-align: center;
+    background-color: #c1ab84;
+    font-size: 24px;
+    color:#fff;
+}
+
+/* Reviews css  */
+.reviews .container .left-section p, .left-section ul li p{
+    font-size: 18px;
+    font-family: "Alegreya";
+    color: #686868;
+    padding-block: 13px;
+}
+
+.reviews .right-section img{
+    width: 100%;
+    
+}
+.reviews .container .left-section ul li i{
+    width: 32px;
+    height: 32px;
+    border-radius: 100%;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+    background-color:  #c1ab84;
+}
+.container .left-section ul li{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.reviews .container .left-section ul li p{
+    padding-left: 16px;
+}
+
+/* wallpaper css */
+.wallpaper{
+    background-image: url("../img/logo107.jpg");
+    background-size: cover;
+    width:100%;
+    padding-block: 200px;
+}
+
+/* menu css */
+.menu{
+    text-align: center;
+    background-color: #f8f8f8;
+    padding-block: 19px;
+}
+
+
+.menu .container .dishes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 100%;
+}
+.dish{
+    width: 30%;
+    text-align: center;
+    line-height: 1.7;
+    margin-block: 30px;
+}
+.dish img{
+    width: 100%;
+}
+h4{
+    color: #253048;
+    font-size: 21px;
+    font-family: "Alegreya";
+    font-weight: 400;
+    padding-block: 9px;
+}
+.dish p{
+    font-weight: 400;
+    color: #686868;
+    font-family: 'Alegreya';
+    font-size: 18px;
+}
+
+/* place css */
+.place .container .left-section p{
+    font-size: 18px;
+    font-family: "Alegreya";
+    color: #686868;
+    padding-block: 13px;
+}
+.place .container .left-section ul p {
+    padding-inline: 13px;
+}
+.place .left-section ul li i{
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    border-radius: 100%;
+    color: #fff;
+    background-color: #c1ab84;
+    text-align: center;
+}
+
+/* footer css */
+.footer{
+    background-color: #403d38;
+
+}
+.sections{
+    display: flex;
+    justify-content: space-between;
+
+}
+.about-us, .links, .hours, .contact-details{
+    width: 23%;
+    
+}
+.footer h4{
+    color: #fff;
+    font-size: 18px;
+    padding-block: 30px;
+
+}
+.footer  p{
+    font-weight: 400;
+    color: #A9A9A9;
+    font-family: 'Alegreya';
+    font-size: 16px;  
+}
+.details{
+    padding-block: 30px;  
+}
+.links ul li, .hours ul li, .contact-details ul li  {
+    border-bottom: 1px solid rgba(180, 175, 175, 0.3);
+    padding-block:13px;
+}
+.links .no-border, .hours .no-border, .contact-details .no-border{
+    border: none;
+}
+.hours ul li{
+    display: flex;
+    align-items: center; 
+}
+
+.links ul li i, .hours ul li i{
+    color: #A9A9A9;
+    font-size: 10px;
+    padding-right: 6px;
+}
+
+.footer a{
+    font-weight: 400;
+    color: #A9A9A9;
+    font-family: 'Alegreya';
+    font-size: 16px;
+    text-transform: capitalize;
+    
+}
+.contact-details ul li i{
+    color: #A9A9A9;
+    font-size: 16px;
+    padding-right: 10px;  
+}
+.last{
+    text-align: center;
+    background-color: #353330;
+    color: #b3afaf;
+    padding-block: 40px ;
+}
+.last a i{
+    height: 56px;
+    width: 56px;
+    border-radius: 100%;
+    background-color:#484540 ;
+    text-align: center;
+    line-height: 56px;
+    font-size: 24px;
+    font-weight: 400;
+}
+.last a{
+    color: #8c8a86;
+    padding: 3px;
+}
+.copyright{
+padding: 20px 0;
+font-family: "Alegreya Sans";
+color:#777;
+font-size: 18px;
+}
+.fa-facebook-f:hover , .fa-instagram:hover, .fa-tumblr:hover, .fa-twitter:hover {
+color: #fff;
+background-color: #3b5998;
+
+}
+
+
+
+
+
+
+
+
